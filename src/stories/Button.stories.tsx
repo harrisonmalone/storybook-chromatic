@@ -14,3 +14,10 @@ export const Primary = Template.bind({});
 Primary.args = {
   buttonText: "Click me"
 };
+
+export const Disabled = Template.bind({});
+
+Disabled.args = {
+  buttonText: "Disabled",
+  disabled: true
+};
