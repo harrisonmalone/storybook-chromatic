@@ -21,3 +21,10 @@ Disabled.args = {
   buttonText: "Disabled",
   disabled: true
 };
+
+export const WithId = Template.bind({});
+
+WithId.args = {
+  buttonText: "Hello",
+  id: "btn"
+};

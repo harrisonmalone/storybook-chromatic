@@ -7,7 +7,7 @@ function App() {
       <h1 className='text-2xl'>Card</h1>
       <Card headerText='Header' bodyText='Hello world body'  />
       <h1 className='text-2xl'>Button</h1>
-      <Button buttonText='Button text' />
+      <Button buttonText='Button text' disabled={false} id="btn" />
     </div>
   )
 }
