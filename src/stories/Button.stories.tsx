@@ -21,8 +21,3 @@ Disabled.args = {
   buttonText: "Disabled",
   disabled: true
 };
-
-Disabled.parameters = {
-  // disables Chromatic's snapshotting on a story level
-  chromatic: { disableSnapshot: true, },
-};
